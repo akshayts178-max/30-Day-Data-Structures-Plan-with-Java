@@ -1,5 +1,6 @@
 import arrays.MaxAndMinArray;
 import arrays.ReverseAnArrayInPlace;
+import string.Palindrome;
 
 void main() {
     IO.println("Hello and welcome!");
@@ -10,4 +11,6 @@ void main() {
 
     ReverseAnArrayInPlace.reverse(arr);
     IO.println("Reversed: " + Arrays.toString(arr));
+
+    Palindrome.checkPalindrome("MALAYALAM");
 }
