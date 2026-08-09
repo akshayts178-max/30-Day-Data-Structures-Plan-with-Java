@@ -1,4 +1,5 @@
 import arrays.MaxAndMinArray;
+import arrays.MoveZeros;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import string.Palindrome;
@@ -6,7 +7,7 @@ import string.Palindrome;
 void main() {
     IO.println("Hello and welcome!");
 
-    int[] arr = { 12, 3, 45, 6, 78, 9 };
+    int[] arr = { 12, 3, 45, 6, 0, 78, 9 };
 
     MaxAndMinArray.findMaxAndMin(arr);
 
@@ -16,4 +17,6 @@ void main() {
     Palindrome.checkPalindrome("MALAYALAM");
 
     SecondLargestElement.findSecondLargestElement(arr);
+
+    MoveZeros.moveZeros(arr);
 }
