@@ -4,6 +4,7 @@ import arrays.RemoveDuplicates;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
+import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.NonRecurring;
 import string.Palindrome;
@@ -12,7 +13,8 @@ void main() {
     IO.println("Hello and welcome!");
 
     int[] arr = { 12, 3, 45, 6, 0, 78, 9, 9 };
-    String str = "SWISS";
+    String str1 = "SWISS";
+    String str2 = "SSWIS";
 
     MaxAndMinArray.findMaxAndMin(arr);
 
@@ -31,5 +33,7 @@ void main() {
 
     CountFrequency.countFrequency(arr);
 
-    NonRecurring.findNonRecurring(str);
+    NonRecurring.findNonRecurring(str1);
+
+    Anagrams.checkAnagrams(str1, str2);
 }
