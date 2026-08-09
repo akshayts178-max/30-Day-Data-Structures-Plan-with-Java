@@ -1,8 +1,4 @@
-import arrays.MaxAndMinArray;
-import arrays.MoveZeros;
-import arrays.RemoveDuplicates;
-import arrays.ReverseAnArrayInPlace;
-import arrays.SecondLargestElement;
+import arrays.*;
 import arrays.hashmaps.TwoSum;
 import arrays.searching.BinarySearching;
 import hashMap.Anagrams;
@@ -40,4 +36,6 @@ void main() {
     Anagrams.checkAnagrams(str1, str2);
 
     BinarySearching.binarySearch(searchArray, "Mango");
+
+    MissingNumber.findMissingNumber(arr);
 }
