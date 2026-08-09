@@ -4,6 +4,7 @@ import arrays.RemoveDuplicates;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
+import arrays.searching.BinarySearching;
 import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.NonRecurring;
@@ -15,6 +16,7 @@ void main() {
     int[] arr = { 12, 3, 45, 6, 0, 78, 9, 9 };
     String str1 = "SWISS";
     String str2 = "SSWIS";
+    String[] searchArray = { "Apple", "Banana", "Mango", "Orange", "Pineapple" };
 
     MaxAndMinArray.findMaxAndMin(arr);
 
@@ -36,4 +38,6 @@ void main() {
     NonRecurring.findNonRecurring(str1);
 
     Anagrams.checkAnagrams(str1, str2);
+
+    BinarySearching.binarySearch(searchArray, "Mango");
 }
