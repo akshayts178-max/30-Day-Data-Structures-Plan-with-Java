@@ -3,6 +3,8 @@ package arrays;
 import java.util.Arrays;
 
 public class MaxAndMinArray {
+    private MaxAndMinArray() {}
+
     public static void findMaxAndMin(int[] arr) {
         if (arr == null || arr.length == 0) {
             System.out.println("Array is empty");

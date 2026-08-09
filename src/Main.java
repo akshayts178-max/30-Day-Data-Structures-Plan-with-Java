@@ -1,5 +1,6 @@
 import arrays.MaxAndMinArray;
 import arrays.MoveZeros;
+import arrays.RemoveDuplicates;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
@@ -8,7 +9,7 @@ import string.Palindrome;
 void main() {
     IO.println("Hello and welcome!");
 
-    int[] arr = { 12, 3, 45, 6, 0, 78, 9 };
+    int[] arr = { 12, 3, 45, 6, 0, 78, 9, 9 };
 
     MaxAndMinArray.findMaxAndMin(arr);
 
@@ -22,4 +23,6 @@ void main() {
     MoveZeros.moveZeros(arr);
 
     TwoSum.findTwoSum(arr, 15);
+
+    RemoveDuplicates.removeDuplicates(arr);
 }
