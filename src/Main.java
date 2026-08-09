@@ -4,6 +4,7 @@ import arrays.RemoveDuplicates;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
+import hashMap.CountFrequency;
 import string.Palindrome;
 
 void main() {
@@ -25,4 +26,6 @@ void main() {
     TwoSum.findTwoSum(arr, 15);
 
     RemoveDuplicates.removeDuplicates(arr);
+
+    CountFrequency.countFrequency(arr);
 }
