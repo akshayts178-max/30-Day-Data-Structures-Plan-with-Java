@@ -2,6 +2,7 @@ import arrays.MaxAndMinArray;
 import arrays.MoveZeros;
 import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
+import arrays.hashmaps.TwoSum;
 import string.Palindrome;
 
 void main() {
@@ -19,4 +20,6 @@ void main() {
     SecondLargestElement.findSecondLargestElement(arr);
 
     MoveZeros.moveZeros(arr);
+
+    TwoSum.findTwoSum(arr, 15);
 }
