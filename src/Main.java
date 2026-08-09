@@ -4,6 +4,7 @@ import arrays.searching.BinarySearching;
 import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.NonRecurring;
+import sorting.BubbleSorting;
 import string.Palindrome;
 
 void main() {
@@ -38,4 +39,6 @@ void main() {
     BinarySearching.binarySearch(searchArray, "Mango");
 
     MissingNumber.findMissingNumber(arr);
+
+    BubbleSorting.bubbleSort(arr);
 }
