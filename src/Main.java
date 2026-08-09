@@ -1,5 +1,6 @@
 import arrays.MaxAndMinArray;
 import arrays.ReverseAnArrayInPlace;
+import arrays.SecondLargestElement;
 import string.Palindrome;
 
 void main() {
@@ -13,4 +14,6 @@ void main() {
     IO.println("Reversed: " + Arrays.toString(arr));
 
     Palindrome.checkPalindrome("MALAYALAM");
+
+    SecondLargestElement.findSecondLargestElement(arr);
 }
