@@ -5,12 +5,14 @@ import arrays.ReverseAnArrayInPlace;
 import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
 import hashMap.CountFrequency;
+import hashMap.NonRecurring;
 import string.Palindrome;
 
 void main() {
     IO.println("Hello and welcome!");
 
     int[] arr = { 12, 3, 45, 6, 0, 78, 9, 9 };
+    String str = "SWISS";
 
     MaxAndMinArray.findMaxAndMin(arr);
 
@@ -28,4 +30,6 @@ void main() {
     RemoveDuplicates.removeDuplicates(arr);
 
     CountFrequency.countFrequency(arr);
+
+    NonRecurring.findNonRecurring(str);
 }
