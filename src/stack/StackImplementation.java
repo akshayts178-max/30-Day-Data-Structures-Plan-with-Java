@@ -3,6 +3,8 @@ package stack;
 import java.util.Stack;
 
 public class StackImplementation {
+    private StackImplementation() {}
+
     // Implement a stack using a list
     public static void implementStack() {
         Stack<Integer> stack = new Stack<>();
