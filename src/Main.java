@@ -6,6 +6,7 @@ import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
 import sorting.BubbleSorting;
+import stack.StackImplementation;
 import string.Palindrome;
 
 void main() {
@@ -45,4 +46,6 @@ void main() {
     BubbleSorting.bubbleSort(arr1);
 
     Intersection.findIntersection(arr1, arr2);
+
+    StackImplementation.implementStack();
 }
