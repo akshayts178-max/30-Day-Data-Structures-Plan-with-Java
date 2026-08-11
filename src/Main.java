@@ -6,6 +6,7 @@ import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
 import sorting.BubbleSorting;
+import stack.BalancedParenthses;
 import stack.StackImplementation;
 import string.Palindrome;
 
@@ -48,4 +49,6 @@ void main() {
     Intersection.findIntersection(arr1, arr2);
 
     StackImplementation.implementStack();
+
+    BalancedParenthses.checkBalancedParentheses(str1);
 }
