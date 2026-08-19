@@ -7,6 +7,7 @@ import hashMap.Intersection;
 import hashMap.NonRecurring;
 import sorting.BubbleSorting;
 import stack.BalancedParenthses;
+import stack.ReverseString;
 import stack.StackImplementation;
 import string.Palindrome;
 
@@ -18,6 +19,7 @@ void main() {
     String str2 = "SSWIS";
     String[] searchArray = { "Apple", "Banana", "Mango", "Orange", "Pineapple" };
     int[] arr2 = { 9, 9, 78, 0, 6, 45, 3, 12 };
+    char[] arr3 = { 'a', 'b', 'c', 'd', 'e' };
 
     MaxAndMinArray.findMaxAndMin(arr1);
 
@@ -51,4 +53,6 @@ void main() {
     StackImplementation.implementStack();
 
     BalancedParenthses.checkBalancedParentheses(str1);
+
+    ReverseString.reverseString(arr3);
 }
