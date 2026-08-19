@@ -7,6 +7,7 @@ import hashMap.Intersection;
 import hashMap.NonRecurring;
 import sorting.BubbleSorting;
 import stack.BalancedParenthses;
+import stack.NextGreaterElement;
 import stack.ReverseString;
 import stack.StackImplementation;
 import string.Palindrome;
@@ -55,4 +56,6 @@ void main() {
     BalancedParenthses.checkBalancedParentheses(str1);
 
     ReverseString.reverseString(arr3);
+
+    NextGreaterElement.findNextGreaterElement(arr1);
 }

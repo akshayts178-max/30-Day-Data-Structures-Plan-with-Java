@@ -16,6 +16,6 @@ public class ReverseString {
         for (int i = 0; i < str.length; i++){
             str[i] = stack.pop();
         }
-        System.out.print(str);
+        System.out.println(str);
     }
 }
