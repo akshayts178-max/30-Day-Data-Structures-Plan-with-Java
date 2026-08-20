@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import queue.ImplementQueue;
 import sorting.BubbleSorting;
 import stack.BalancedParenthses;
 import stack.NextGreaterElement;
@@ -58,4 +59,6 @@ void main() {
     ReverseString.reverseString(arr3);
 
     NextGreaterElement.findNextGreaterElement(arr1);
+
+    ImplementQueue.implementQueue();
 }
