@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
 import sorting.BubbleSorting;
 import stack.BalancedParenthses;
@@ -61,4 +62,6 @@ void main() {
     NextGreaterElement.findNextGreaterElement(arr1);
 
     ImplementQueue.implementQueue();
+
+    ImplementCircularQueue.implementCircularQueue();
 }
