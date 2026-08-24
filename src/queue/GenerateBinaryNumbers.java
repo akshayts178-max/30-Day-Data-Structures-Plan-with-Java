@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class GenerateBinaryNumbers {
+    private GenerateBinaryNumbers() {}
+
     // Generate binary numbers 1..n using a queue
     public static void generateBinaryNumbers(int n){
         Queue<String> queue = new LinkedList<>();
