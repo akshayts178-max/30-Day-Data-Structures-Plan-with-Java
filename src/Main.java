@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import linkedList.SinglyLinkedList;
 import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
 import sorting.BubbleSorting;
@@ -64,4 +65,6 @@ void main() {
     ImplementQueue.implementQueue();
 
     ImplementCircularQueue.implementCircularQueue();
+
+    SinglyLinkedList.implementSinglyLinkedList(arr1);
 }
