@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import linkedList.MiddleNode;
 import linkedList.RevertLinkedList;
 import linkedList.DetectCycle;
 import queue.GenerateBinaryNumbers;
@@ -77,4 +78,6 @@ void main() {
     RevertLinkedList.revertLinkedList();
 
     DetectCycle.detectCycle();
+
+    MiddleNode.findMiddleNode();
 }
