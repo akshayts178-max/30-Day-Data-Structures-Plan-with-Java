@@ -1,19 +1,9 @@
-package linkedList;
+package linkedlist;
 
 public class MiddleNode {
     private MiddleNode() {}
 
     // Find the middle node of a linked list
-    static class ListNode {
-        int data;
-        ListNode next;
-
-        ListNode(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
-
     public static void findMiddleNode(){
         ListNode node1 = new ListNode(10);
         ListNode node2 = new ListNode(20);

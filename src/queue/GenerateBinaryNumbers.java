@@ -3,6 +3,8 @@ package queue;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import common.AppConstants;
+
 public class GenerateBinaryNumbers {
     private GenerateBinaryNumbers() {}
 
@@ -13,7 +15,7 @@ public class GenerateBinaryNumbers {
         queue.offer("1");
         System.out.println("Binaries");
 
-        for (int i = 2; i <= n; i++){
+        for (int i = AppConstants.FIRST_BINARY_NUMBER + 1; i <= n; i++){
             String binary = queue.poll();
             System.out.println(binary);
             queue.offer(binary + "0");

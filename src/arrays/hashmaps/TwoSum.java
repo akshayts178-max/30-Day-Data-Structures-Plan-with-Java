@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
+    private TwoSum() {}
+
     // Two Sum (find pair summing to a target)
     public static void findTwoSum(int[] arr, int target) {
         Map<Integer, Integer> map = new HashMap<>();
