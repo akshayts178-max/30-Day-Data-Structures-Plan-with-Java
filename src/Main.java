@@ -21,6 +21,7 @@ import stack.StackImplementation;
 import string.Palindrome;
 import tree.BinaryTree;
 import tree.BinaryTreeHeight;
+import tree.LevelOrderTraversal;
 
 void main() {
     IO.println("Hello and welcome!");
@@ -99,4 +100,6 @@ void main() {
     BinaryTree.buildBinaryTree();
 
     BinaryTreeHeight.findBinaryTreeHeight();
+
+    LevelOrderTraversal.levelOrderTraversal();
 }
