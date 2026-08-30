@@ -20,6 +20,7 @@ import stack.ReverseString;
 import stack.StackImplementation;
 import string.Palindrome;
 import tree.BinaryTree;
+import tree.BinaryTreeHeight;
 
 void main() {
     IO.println("Hello and welcome!");
@@ -96,4 +97,6 @@ void main() {
     MergeSortedList.mergeSortedList(list1, list2);
 
     BinaryTree.buildBinaryTree();
+
+    BinaryTreeHeight.findBinaryTreeHeight();
 }
