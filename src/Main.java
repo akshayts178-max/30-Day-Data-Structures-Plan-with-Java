@@ -6,6 +6,7 @@ import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
 import linkedList.MiddleNode;
+import linkedList.MergeSortedList;
 import linkedList.RevertLinkedList;
 import linkedList.DetectCycle;
 import queue.GenerateBinaryNumbers;
@@ -30,6 +31,16 @@ void main() {
     int[] arr2 = { 9, 9, 78, 0, 6, 45, 3, 12 };
     char[] arr3 = { 'a', 'b', 'c', 'd', 'e' };
     int n = 6;
+    LinkedList<Integer> list1 = new LinkedList<>();
+    list1.add(1);
+    list1.add(3);
+    list1.add(5);
+    list1.add(7);
+    LinkedList<Integer> list2 = new LinkedList<>();
+    list2.add(2);
+    list2.add(4);
+    list2.add(6);
+    list2.add(8);
 
     MaxAndMinArray.findMaxAndMin(arr1);
 
@@ -81,6 +92,8 @@ void main() {
     DetectCycle.detectCycle();
 
     MiddleNode.findMiddleNode();
+
+    MergeSortedList.mergeSortedList(list1, list2);
 
     BinaryTree.buildBinaryTree();
 }
