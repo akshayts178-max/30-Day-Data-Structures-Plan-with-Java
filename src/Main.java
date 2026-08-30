@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import linkedList.MiddleNode;
 import linkedList.RevertLinkedList;
 import queue.GenerateBinaryNumbers;
 import linkedList.SinglyLinkedList;
@@ -74,4 +75,6 @@ void main() {
     SinglyLinkedList.implementSinglyLinkedList(arr1);
 
     RevertLinkedList.revertLinkedList();
+
+    MiddleNode.findMiddleNode();
 }
