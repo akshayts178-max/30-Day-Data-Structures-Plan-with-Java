@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import linkedList.RevertLinkedList;
 import queue.GenerateBinaryNumbers;
 import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
@@ -68,4 +69,6 @@ void main() {
     ImplementCircularQueue.implementCircularQueue();
 
     GenerateBinaryNumbers.generateBinaryNumbers(n);
+
+    RevertLinkedList.revertLinkedList();
 }
