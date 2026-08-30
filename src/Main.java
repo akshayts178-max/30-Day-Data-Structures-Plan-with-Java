@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import queue.GenerateBinaryNumbers;
 import linkedList.SinglyLinkedList;
 import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
@@ -24,6 +25,7 @@ void main() {
     String[] searchArray = { "Apple", "Banana", "Mango", "Orange", "Pineapple" };
     int[] arr2 = { 9, 9, 78, 0, 6, 45, 3, 12 };
     char[] arr3 = { 'a', 'b', 'c', 'd', 'e' };
+    int n = 6;
 
     MaxAndMinArray.findMaxAndMin(arr1);
 
@@ -65,6 +67,8 @@ void main() {
     ImplementQueue.implementQueue();
 
     ImplementCircularQueue.implementCircularQueue();
+
+    GenerateBinaryNumbers.generateBinaryNumbers(n);
 
     SinglyLinkedList.implementSinglyLinkedList(arr1);
 }
