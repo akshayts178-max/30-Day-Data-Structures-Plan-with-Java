@@ -18,6 +18,7 @@ import stack.NextGreaterElement;
 import stack.ReverseString;
 import stack.StackImplementation;
 import string.Palindrome;
+import tree.BinaryTree;
 
 void main() {
     IO.println("Hello and welcome!");
@@ -80,4 +81,6 @@ void main() {
     DetectCycle.detectCycle();
 
     MiddleNode.findMiddleNode();
+
+    BinaryTree.buildBinaryTree();
 }
