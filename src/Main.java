@@ -6,6 +6,7 @@ import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
 import linkedList.RevertLinkedList;
+import linkedList.DetectCycle;
 import queue.GenerateBinaryNumbers;
 import linkedList.SinglyLinkedList;
 import queue.ImplementCircularQueue;
@@ -74,4 +75,6 @@ void main() {
     SinglyLinkedList.implementSinglyLinkedList(arr1);
 
     RevertLinkedList.revertLinkedList();
+
+    DetectCycle.detectCycle();
 }
