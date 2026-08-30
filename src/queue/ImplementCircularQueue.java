@@ -1,13 +1,13 @@
 package queue;
 
-public class ImplementCircularQueue {
-    private static final int CAPACITY = 10;
+import common.AppConstants;
 
+public class ImplementCircularQueue {
     private ImplementCircularQueue() {}
 
     // Implement a circular queue
     public static void implementCircularQueue(){
-        int[] queue = new int[CAPACITY];
+        int[] queue = new int[AppConstants.CIRCULAR_QUEUE_CAPACITY];
         int front = 0;
         int rear = 0;
         int size = 0;
