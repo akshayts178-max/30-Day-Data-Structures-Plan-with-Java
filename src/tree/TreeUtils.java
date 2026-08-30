@@ -4,7 +4,9 @@ public class TreeUtils {
     private TreeUtils() {}
 
     public static void inorder(TreeNode root) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         inorder(root.left);
         System.out.print(root.data + " ");
         inorder(root.right);

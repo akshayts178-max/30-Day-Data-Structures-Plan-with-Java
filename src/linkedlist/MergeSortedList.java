@@ -1,8 +1,10 @@
-package linkedList;
+package linkedlist;
 
 import java.util.LinkedList;
 
 public class MergeSortedList {
+    private static final String MERGED_LIST_PREFIX = "Merged list: ";
+
     private MergeSortedList() {}
 
     // Merge two sorted linked lists
@@ -13,18 +15,18 @@ public class MergeSortedList {
         }
 
         if (list1 == null) {
-            System.out.println("Merged list: " + list2);
+            System.out.println(MERGED_LIST_PREFIX + list2);
             return;
         }
 
         if (list2 == null) {
-            System.out.println("Merged list: " + list1);
+            System.out.println(MERGED_LIST_PREFIX + list1);
             return;
         }
 
         LinkedList<Integer> mergedList = getIntegers(list1, list2);
 
-        System.out.println("Merged list: " + mergedList);
+        System.out.println(MERGED_LIST_PREFIX + mergedList);
     }
 
     private static LinkedList<Integer> getIntegers(LinkedList<Integer> list1, LinkedList<Integer> list2) {

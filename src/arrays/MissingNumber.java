@@ -1,6 +1,8 @@
 package arrays;
 
 public class MissingNumber {
+    private MissingNumber() {}
+
     // Find the missing number in a range 1..n
     public static void findMissingNumber(int[] nums) {
         int n = nums.length + 1;

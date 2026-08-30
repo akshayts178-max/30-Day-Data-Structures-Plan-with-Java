@@ -1,13 +1,17 @@
-package hashMap;
+package hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class Anagrams {
+    private static final String NOT_ANAGRAM = "Not anagram";
+
+    private Anagrams() {}
+
     // Check if two strings are anagrams
     public static void checkAnagrams(String str1, String str2) {
         if (str1.length() != str2.length()) {
-            System.out.println("Not anagram");
+            System.out.println(NOT_ANAGRAM);
             return;
         }
 
@@ -19,14 +23,14 @@ public class Anagrams {
 
         for (char ch : str2.toCharArray()) {
             if (!map.containsKey(ch)) {
-                System.out.println("Not anagram");
+                System.out.println(NOT_ANAGRAM);
                 return;
             }
 
             map.put(ch, map.get(ch) - 1);
 
             if (map.get(ch) < 0) {
-                System.out.println("Not anagram");
+                System.out.println(NOT_ANAGRAM);
                 return;
             }
         }

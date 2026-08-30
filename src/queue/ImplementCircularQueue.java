@@ -1,11 +1,13 @@
 package queue;
 
 public class ImplementCircularQueue {
+    private static final int CAPACITY = 10;
+
     private ImplementCircularQueue() {}
 
     // Implement a circular queue
     public static void implementCircularQueue(){
-        int[] queue = new int[10];
+        int[] queue = new int[CAPACITY];
         int front = 0;
         int rear = 0;
         int size = 0;

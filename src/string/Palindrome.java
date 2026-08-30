@@ -1,6 +1,8 @@
 package string;
 
 public class Palindrome {
+    private Palindrome() {}
+
     //Check if a string is a palindrome
 
     public static void checkPalindrome(String str) {
