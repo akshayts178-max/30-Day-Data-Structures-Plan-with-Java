@@ -1,4 +1,9 @@
-import arrays.*;
+import arrays.MaxAndMinArray;
+import arrays.MissingNumber;
+import arrays.MoveZeros;
+import arrays.RemoveDuplicates;
+import arrays.ReverseAnArrayInPlace;
+import arrays.SecondLargestElement;
 import arrays.hashmaps.TwoSum;
 import arrays.searching.BinarySearching;
 import hashMap.Anagrams;

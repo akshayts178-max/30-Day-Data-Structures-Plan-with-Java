@@ -10,6 +10,7 @@ public class Palindrome {
         while (left < right) {
             if (str.charAt(left) != str.charAt(right)) {
                 System.out.println("Not a palindrome");
+                return;
             }
             left++;
             right--;

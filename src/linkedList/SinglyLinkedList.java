@@ -5,11 +5,11 @@ public class SinglyLinkedList {
 
     // Implement a singly linked list (insert/print)
     public static void implementSinglyLinkedList(int[] arr) {
-        Node head = null;
-        Node tail = null;
+        ListNode head = null;
+        ListNode tail = null;
 
         for (int value : arr) {
-            Node newNode = new Node(value);
+            ListNode newNode = new ListNode(value);
 
             if (head == null) {
                 head = newNode;
@@ -20,29 +20,7 @@ public class SinglyLinkedList {
             }
         }
 
-        Node cur = head;
         System.out.println("Singly linked list: ");
-
-        while (cur != null) {
-            System.out.print(cur.data);
-
-            if (cur.next != null) {
-                System.out.print(" -> ");
-            }
-
-            cur = cur.next;
-        }
-
-        System.out.println();
-    }
-
-    private static class Node {
-        int data;
-        Node next;
-
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
+        LinkedListUtils.printList(head);
     }
 }
