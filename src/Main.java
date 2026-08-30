@@ -5,6 +5,7 @@ import hashMap.Anagrams;
 import hashMap.CountFrequency;
 import hashMap.Intersection;
 import hashMap.NonRecurring;
+import linkedList.MiddleNode;
 import linkedList.MergeSortedList;
 import linkedList.RevertLinkedList;
 import linkedList.DetectCycle;
@@ -88,6 +89,8 @@ void main() {
     RevertLinkedList.revertLinkedList();
 
     DetectCycle.detectCycle();
+
+    MiddleNode.findMiddleNode();
 
     MergeSortedList.mergeSortedList(list1, list2);
 }
