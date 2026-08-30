@@ -7,6 +7,7 @@ import hashMap.Intersection;
 import hashMap.NonRecurring;
 import linkedList.RevertLinkedList;
 import queue.GenerateBinaryNumbers;
+import linkedList.SinglyLinkedList;
 import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
 import sorting.BubbleSorting;
@@ -69,6 +70,8 @@ void main() {
     ImplementCircularQueue.implementCircularQueue();
 
     GenerateBinaryNumbers.generateBinaryNumbers(n);
+
+    SinglyLinkedList.implementSinglyLinkedList(arr1);
 
     RevertLinkedList.revertLinkedList();
 }
