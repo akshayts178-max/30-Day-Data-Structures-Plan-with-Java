@@ -1,9 +1,19 @@
-package linkedlist;
+package linkedList;
 
 public class DetectCycle {
     private DetectCycle() {}
 
     // Detect a cycle in a linked list
+    static class ListNode {
+        int data;
+        ListNode next;
+
+        ListNode(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
     public static void detectCycle() {
         ListNode node1 = new ListNode(10);
         ListNode node2 = new ListNode(20);

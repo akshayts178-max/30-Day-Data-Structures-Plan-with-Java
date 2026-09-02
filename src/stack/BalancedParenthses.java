@@ -2,10 +2,8 @@ package stack;
 
 import java.util.Stack;
 
-import common.AppConstants;
-
-public class BalancedParentheses {
-    private BalancedParentheses() {}
+public class BalancedParenthses {
+    private BalancedParenthses() {}
 
     // Check for balanced parentheses
     public static void checkBalancedParentheses(String s) {
@@ -16,7 +14,7 @@ public class BalancedParentheses {
                 stack.push(ch);
             } else if (ch == ')' || ch == '}' || ch == ']') {
                 if (stack.isEmpty()) {
-                    System.out.println(AppConstants.NOT_BALANCED + ch);
+                    System.out.println("Not balanced" + ch);
                     return;
                 }
 
@@ -24,7 +22,7 @@ public class BalancedParentheses {
                 if ((ch == ')' && pop != '(') ||
                         (ch == '}' && pop != '{') ||
                         (ch == ']' && pop != '[')) {
-                    System.out.println(AppConstants.NOT_BALANCED + ch);
+                    System.out.println("Not balanced" + ch);
                     return;
                 }
             }
@@ -33,7 +31,7 @@ public class BalancedParentheses {
         if (stack.isEmpty()) {
             System.out.println("Balanced");
         } else {
-            System.out.println(AppConstants.NOT_BALANCED);
+            System.out.println("Not balanced");
         }
     }
 }

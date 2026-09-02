@@ -1,11 +1,9 @@
-package hashmap;
+package hashMap;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class Intersection {
-    private Intersection() {}
-
     // Find intersection of two arrays
     public static void findIntersection(int[] arr1, int[] arr2) {
         Set<Integer> set = new HashSet<>();

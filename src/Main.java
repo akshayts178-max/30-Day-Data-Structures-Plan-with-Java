@@ -1,25 +1,20 @@
-import arrays.MaxAndMinArray;
-import arrays.MissingNumber;
-import arrays.MoveZeros;
-import arrays.RemoveDuplicates;
-import arrays.ReverseAnArrayInPlace;
-import arrays.SecondLargestElement;
+import arrays.*;
 import arrays.hashmaps.TwoSum;
 import arrays.searching.BinarySearching;
-import hashmap.Anagrams;
-import hashmap.CountFrequency;
-import hashmap.Intersection;
-import hashmap.NonRecurring;
-import linkedlist.MiddleNode;
-import linkedlist.MergeSortedList;
-import linkedlist.RevertLinkedList;
-import linkedlist.DetectCycle;
+import hashMap.Anagrams;
+import hashMap.CountFrequency;
+import hashMap.Intersection;
+import hashMap.NonRecurring;
+import linkedList.MiddleNode;
+import linkedList.MergeSortedList;
+import linkedList.RevertLinkedList;
+import linkedList.DetectCycle;
 import queue.GenerateBinaryNumbers;
-import linkedlist.SinglyLinkedList;
+import linkedList.SinglyLinkedList;
 import queue.ImplementCircularQueue;
 import queue.ImplementQueue;
 import sorting.BubbleSorting;
-import stack.BalancedParentheses;
+import stack.BalancedParenthses;
 import stack.NextGreaterElement;
 import stack.ReverseString;
 import stack.StackImplementation;
@@ -80,7 +75,7 @@ void main() {
 
     StackImplementation.implementStack();
 
-    BalancedParentheses.checkBalancedParentheses(str1);
+    BalancedParenthses.checkBalancedParentheses(str1);
 
     ReverseString.reverseString(arr3);
 

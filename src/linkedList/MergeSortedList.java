@@ -1,8 +1,6 @@
-package linkedlist;
+package linkedList;
 
 import java.util.LinkedList;
-
-import common.AppConstants;
 
 public class MergeSortedList {
     private MergeSortedList() {}
@@ -15,18 +13,18 @@ public class MergeSortedList {
         }
 
         if (list1 == null) {
-            System.out.println(AppConstants.MERGED_LIST_PREFIX + list2);
+            System.out.println("Merged list: " + list2);
             return;
         }
 
         if (list2 == null) {
-            System.out.println(AppConstants.MERGED_LIST_PREFIX + list1);
+            System.out.println("Merged list: " + list1);
             return;
         }
 
         LinkedList<Integer> mergedList = getIntegers(list1, list2);
 
-        System.out.println(AppConstants.MERGED_LIST_PREFIX + mergedList);
+        System.out.println("Merged list: " + mergedList);
     }
 
     private static LinkedList<Integer> getIntegers(LinkedList<Integer> list1, LinkedList<Integer> list2) {

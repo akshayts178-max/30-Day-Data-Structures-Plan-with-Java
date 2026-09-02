@@ -7,20 +7,29 @@ public class LevelOrderTraversal {
     private LevelOrderTraversal() {}
 
     // Level-order traversal of a binary tree using a queue
+    static class Node{
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data){
+            this.data = data;
+        }
+    }
     public static void levelOrderTraversal(){
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
-        root.right.left = new TreeNode(6);
-        root.right.right = new TreeNode(7);
-        Queue<TreeNode> queue = new LinkedList<>();
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+        root.left.left = new Node(4);
+        root.left.right = new Node(5);
+        root.right.left = new Node(6);
+        root.right.right = new Node(7);
+        Queue<Node> queue = new LinkedList<>();
         queue.add(root);
         System.out.println("Level-order traversal:");
 
         while (!queue.isEmpty()){
-            TreeNode cur = queue.poll();
+            Node cur = queue.poll();
             System.out.println(cur.data + " ");
 
             if(cur.left != null){

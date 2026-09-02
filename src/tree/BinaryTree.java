@@ -4,14 +4,31 @@ public class BinaryTree {
     private BinaryTree() {}
 
     // Build a binary tree and do inorder traversal
+    static class Node{
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data){
+            this.data = data;
+        }
+    }
+
     public static void buildBinaryTree(){
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(4);
-        root.left.right = new TreeNode(5);
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+        root.left.left = new Node(4);
+        root.left.right = new Node(5);
         System.out.println("Inorder traversal:");
-        TreeUtils.inorder(root);
+        inorder(root);
         System.out.println();
+    }
+
+    private static void inorder(Node root){
+        if(root == null) return;
+        inorder(root.left);
+        System.out.print(root.data + " ");
+        inorder(root.right);
     }
 }

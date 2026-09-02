@@ -3,8 +3,6 @@ package arrays;
 import java.util.Arrays;
 
 public class MoveZeros {
-    private MoveZeros() {}
-
     // Move all zeros to the end of an array
     public static void moveZeros(int[] arr) {
         int nonZeroIndex = 0;
